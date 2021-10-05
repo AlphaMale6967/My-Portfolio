@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=1024"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        referrerpolicy="no-referrer" />
+
+    <title>Contact | Fardeen's Portfolio</title>
+    <style>
+        .body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .title {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3em;
+        }
+
+        .socialicons {
+            display: flex;
+            margin-top: 100px;
+        }
+
+        .socialicons .icon {
+            width: 80px;
+            height: 80px;
+            box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.05);
+            margin: 0 30px;
+            text-align: center;
+            line-height: 80px;
+            font-size: 30px;
+            text-decoration: none;
+            color: #000;
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .icon:after {
+            content: '';
+            width: 80px;
+            height: 80px;
+            z-index: -1;
+            position: absolute;
+            bottom: -80px;
+            left: 0;
+
+            background: linear-gradient(to bottom, rgb(158, 0, 231), rgb(57, 1, 211));
+            transition: 0.2s;
+        }
+
+        .socialicons .icon:hover {
+            color: #fff;
+        }
+
+        a:hover::after {
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/IMG_20210704_134542_928.jpg" class="profile-icon"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 65%;">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Certificates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="body">
+        <div class="wrapper">
+            <hr>
+            <h2 class="title">Social Media Handles</h2>
+            <hr>
+            <div class="socialicons">
+                <a href = "mailto: kfardeen0123@gmail.com" title="Gmail" class="icon" target="blank"><i style="color: white;" class="fas fa-envelope"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100067778403676" title="Facebook" class="icon" target="blank"><i style="color: white;" class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/FardeenUchiha12" title="Twitter" class="icon" target="blank"><i style="color: white;" class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/ultra_instinct_1/" title="Instagram" class="icon" target="blank"><i style="color: white;" class="fab fa-instagram"></i></a>
+                <a href=" https://wa.me/+919967175514" title="Whatsapp" class="icon" target="blank"><i style="color: white;" class="fab fa-whatsapp"></i></a>
+                <a href="https://github.com/AlphaMale6967" title="GitHub" class="icon" target="blank"><i style="color: white;" class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/fardeen-khan-02857b17b/" title="LinkedIn" class="icon" target="blank"><i style="color: white;" class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <footer class="mt-auto text-white-50">
+        <center>
+            <p>Footer</p>
+        </center>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
